@@ -1,0 +1,10 @@
+.pokemon-gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  place-content: center;
+}
+
+
+

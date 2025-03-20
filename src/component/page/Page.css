@@ -1,0 +1,74 @@
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px auto;
+}
+
+.counter {
+  font-size: 80px;
+  margin: 20px auto;
+}
+
+.upload-button {
+  position: relative;
+  width: 30vw;
+  height: 10vh;
+  background-color: bisque;
+  color: brown;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.upload-button:hover {
+  background-image: url('/assets/pokemon-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: brown;
+  color: bisque;
+  text-shadow: 
+  3px 3px 10px brown,
+  3px -3px 10px brown,
+  -3px 3px 10px brown,
+  -3px -3px 10px brown;
+}
+
+.gallery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+}
+
+.gallery-container > button {
+  font-size: 100px;
+  background-color: transparent;
+  border: none;
+}
+
+.scope-button {
+  position: fixed;
+  top: 1lh;
+  right: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.decrease, .increase {
+  position: relative;
+  font-size: 50px;
+  height: fit-content;
+  padding: 1px 10px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.decrease {
+  border-radius: 16% 0 0 16%;
+}
+
+.increase {
+  border-radius: 0 16% 16% 0;
+}
